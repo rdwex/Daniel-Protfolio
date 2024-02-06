@@ -1,0 +1,319 @@
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+      </style>
+    <title>Tab</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+
+        }
+.container2:hover p {
+    margin-bottom: 15px;
+}
+  .middle i{
+    height: 30px;
+    width: 30px;
+    font-size: 13px;
+    border-radius: 50%;
+    padding-top: 8px;
+    text-align: center;
+    background-color: #1c1c1c;
+    color: #fff;
+    transition: all 1.5s ease;   
+    border: solid 1px;
+    border-color: #1c1c1c ;
+  }
+  
+.middle i:hover {
+    transition: all 500ms ease;
+    color: #1c1c1c;
+    background-color: #fff;
+  }
+
+  .container2 {
+    position: relative;
+    
+  }
+  .image-30 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease ;}
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transition: all .5s ease;
+  }
+  
+  .container2:hover .image-30 {
+    opacity: 0.3;
+    box-sizing: border-box;
+    border: solid;
+    border-color: #1c1c1c;
+    box-shadow:inset 0px 0px 0px 10px !important;
+
+}
+  
+  .container2:hover .middle {
+    opacity: 1;
+  }
+  
+  .text-30 {
+    /* background-color: #04AA6D; */
+    font-size: 16px;
+    /* padding: 16px 32px; */
+  }
+
+
+  .carousel-indicators {
+    color: #e65f78;
+}
+
+
+        /* .dimension {
+            width: 500px;
+            height: 300px;
+        }
+         */
+        .nav-tabs .nav-link.active {
+         color: #343434;
+;
+            text-align: center;
+        }
+        
+        .nav-tabs .nav-link {
+            color: #343434;
+            margin-right: 2rem;
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+        
+.nav-tabs {
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+border: none !important;   
+     }
+     .nav-link:hover {
+        border: none;
+        box-shadow: none;
+
+     }
+        .tab-content {
+            padding: 20px;
+        }
+        .nav-link.active {
+            border: none !important;
+        }
+        
+.nav-tabs a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;    
+    font-weight: 900 !important;
+    font-size: 16px;
+    color: #1c1c1c !important;
+
+}
+
+.nav-tabs .nav-link {
+    color: #343434;
+    margin-right: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="container mt-2">
+        <div class="main-title s-5 text-center pt-5">
+            <h1 class=" bold-30 maincolor t-30 my-shad">Portfolio.</h1>
+      </div>
+        <ul class="nav nav-tabs nav-underline">
+            <li class="nav-item">
+                <a class="nav-link active all-h" data-bs-toggle="tab" href="#home">
+                    <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                    <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                  All</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#profile">
+                    <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z"/>
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                   Brands</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#contact">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                   Design</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                   Graphic</a>
+            </li>
+
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active" id="home">
+                <div class="gall my-5">
+                    <div class="container">
+                      <div class="row mx-5 px-3">
+                        <div class="col-sm-6 col-md-4 mb-3">
+                          <div class="container2 text-center">
+                          <img src="imgs/portfolio/1.jpg" alt="" class="img-thumbnail border-0 image-30">
+                          <div class="middle">
+                            <div class="text-30 text-center fw-bolder"><p>WEB DESIGN</p></div>          
+                            <i class="fa-solid fa-share-from-square"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                          </div> 
+                          </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 mb-3">
+                          <div class="container2 text-center">
+                          <img src="imgs/portfolio/2.jpg" alt="" class="img-thumbnail border-0 image-30">
+                          <div class="middle">
+                            <div class="text-30 text-center fw-bolder"><p>WEB DESIGN</p></div>          
+                            <i class="fa-solid fa-share-from-square"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                          </div> 
+                          </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 mb-3">
+                          <div class="container2 text-center">
+                          <img src="imgs/portfolio/3.jpg" alt="" class="img-thumbnail border-0 image-30">
+                          <div class="middle">
+                            <div class="text-30 text-center fw-bolder"><p>WEB DESIGN</p></div>          
+                            <i class="fa-solid fa-share-from-square"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                          </div> 
+                          </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 mb-3">
+                          <div class="container2 text-center">
+                          <img src="imgs/portfolio/4.jpg" alt="" class="img-thumbnail border-0 image-30">
+                          <div class="middle">
+                            <div class="text-30 text-center fw-bolder"><p>WEB DESIGN</p></div>          
+                            <i class="fa-solid fa-share-from-square"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                          </div> 
+                          </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 mb-3">
+                          <div class="container2 text-center">
+                          <img src="imgs/portfolio/5.jpg" alt="" class="img-thumbnail border-0 image-30">
+                          <div class="middle">
+                            <div class="text-30 text-center fw-bolder"><p>WEB DESIGN</p></div>          
+                            <i class="fa-solid fa-share-from-square"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                          </div> 
+                          </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 mb-3">
+                          <div class="container2 text-center">
+                          <img src="imgs/portfolio/6.jpg" alt="" class="img-thumbnail border-0 image-30">
+                          <div class="middle">
+                            <div class="text-30 text-center fw-bolder"><p>WEB DESIGN</p></div>          
+                            <i class="fa-solid fa-share-from-square"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                          </div> 
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="tab-pane" id="profile">
+                <div class="container">
+                    <div class="row mx-5 px-3">
+                      <div class="col-sm-6 col-md-4 mb-3">
+                        <div class="container2 text-center">
+                        <img src="imgs/portfolio/1.jpg" alt="" class="img-thumbnail border-0 image-30">
+                        <div class="middle">
+                          <div class="text-30 text-center fw-bolder"><p>WEB DESIGN</p></div>          
+                          <i class="fa-solid fa-share-from-square"></i>
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </div> 
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-4 mb-3">
+                        <div class="container2 text-center">
+                        <img src="imgs/portfolio/3.jpg" alt="" class="img-thumbnail border-0 image-30">
+                        <div class="middle">
+                          <div class="text-30 text-center fw-bolder"><p>WEB DESIGN</p></div>          
+                          <i class="fa-solid fa-share-from-square"></i>
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </div> 
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-4 mb-3">
+                        <div class="container2 text-center">
+                        <img src="imgs/portfolio/4.jpg" alt="" class="img-thumbnail border-0 image-30">
+                        <div class="middle">
+                          <div class="text-30 text-center fw-bolder"><p>WEB DESIGN</p></div>          
+                          <i class="fa-solid fa-share-from-square"></i>
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </div> 
+                        </div>
+                      </div>
+                        </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="contact">
+        <div class="container">
+                <div class="row border g-0 rounded shadow-sm">
+                    <div class="col-sm-6 col-md-4 mb-3">
+                        <div class="container2 text-center">
+                        <img src="imgs/portfolio/3.jpg" alt="" class="img-thumbnail border-0 image-30">
+                        <div class="middle">
+                          <div class="text-30 text-center fw-bolder"><p>WEB DESIGN</p></div>          
+                          <i class="fa-solid fa-share-from-square"></i>
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </div> 
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-4 mb-3">
+                        <div class="container2 text-center">
+                        <img src="imgs/portfolio/4.jpg" alt="" class="img-thumbnail border-0 image-30">
+                        <div class="middle">
+                          <div class="text-30 text-center fw-bolder"><p>WEB DESIGN</p></div>          
+                          <i class="fa-solid fa-share-from-square"></i>
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </div> 
+                        </div>
+                      </div> 
+                    </div>
+        </div>
+                </div>
+            </div>
+        </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
